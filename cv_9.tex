@@ -1,0 +1,215 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Vinicius \textsc{Gravina da Rocha}}\bigskip\par} % Your name
+
+%\section{Personal Data}
+
+\begin{tabular}{rl}
+\textsc{Phone:} & +55 48 9162-8212\\
+\textsc{Skype:} & vgrocha\\
+\textsc{email:} &
+\href{mailto:vinicius.darocha@gmail.com}{vinicius.darocha@gmail.com} \\
+\textsc{Currently in:} & Florianópolis, Brasil 
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabular}{r|p{11cm}}
+\emph{Present} & Consultant at \textsc{Cost House Brasil} \\
+\textsc{2014} & \footnotesize{1)Implementation of ABC (\textit{Activity Based
+  Costing}) and ABB (\textit{Activity Based Budgeting}) models for mid-sized to
+  big companies. 2) User-side development of the ABB module for the
+  Valoptia Software 3) Visualization tools in JavaScript/d3jsDeveloped }\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Present} & IT Consultant at own company, \textsc{Boechat \&
+  Gravina Smart Solutions} \\
+\textsc{2013} & \footnotesize{1) Business model for small brewery
+  and web-application in Django for customer relationship, accounting
+  and inventory control 2) Realtime application in Delphi to measure
+  roller skaters performance 3) Clojure platform to forecast
+  Eurostoxx-50 and European Energy Futures and web application to
+  deliver results }
+\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{2011-2014} & Team Leader in the Decaptcher Project at \textsc{Neoway
+Brasil} \\
+& \footnotesize{Coordination of a small team to develop automatic
+  recognition systems for CAPTCHAs in Java and Clojure using image
+  processing, artificial intelligence and statistical analysis} \\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{2008-2009} & Intern as stock analyst assistante for the
+Telecom, Media and Technology sector at \textsc{J.P. Morgan Brasil} \\
+& \footnotesize{1) Valuation and forecasts in Excel/VBA for companies in
+  the sector 2) Reports and analysis of related companies and on the
+  sector and 3) Marketing presentations and products for customers}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{2007} & Intern as software Engineer, \textsc{Dassault
+  Systemes}, France \\
+& \footnotesize{Specs, development and C++ implementation of a
+  smart assembly algorithm for CATIA (worldwide CAD leader)} \\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{2007} & Internship for discovering the business world as
+aircraft mechanic assistant \textsc{Airbus Delivery Center}, France \\
+& \footnotesize{final checks and adjustments of aircrafts before delivery} \\
+%% \multicolumn{2}{c}{} \\
+
+%% %------------------------------------------------
+
+%% \textsc{2005-2006} & Industrial Studies Project with \textsc{Arcelor
+%% Packaging}, France \\
+%% & \footnotesize{theoretical model and Excel/VBA implementation to
+%%   predict and optimize the lubricant amount circulating on a rolling
+%%   mill system.} \\
+
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+
+\begin{tabular}{rl}
+Programming Paradigms: & \textsc{php}, my\textsc{sql}, \textsc{html}, Access, \textsc{Linux}, ubuntu, {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
+
+Intermediate Knowledge: & \textsc{vba}, Excel, Word, PowerPoint\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\begin{tabular}{rl}
+\textsc{Portuguese:} & Mothertongue\\
+
+\textsc{English:} & Proficient - IELTS 8/9, exam held on January 2012\\
+
+\textsc{French:} & Proficient, 4 years lived in France. ETS-TFI
+915/990, held on October 2006\\
+
+%% \textsc{Spanish:} & Intermediate \\
+
+%% \textsc{German:} & Basic Knowledge \\
+
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+%\begin{tabular}{r|p{11cm}}
+\begin{tabular}{rp{11cm}}	
+\textsc{2010-2013} & Master of \textsc{Automation and Systems
+  Engineering}, \textbf{University Federal de Santa Catarina} - UFSC,
+Brasil\\
+%%  & Thesis: ``Adaptative piecewise linear strategies applied to
+%% optimize oil \& gas production'' | \small Advisor: Prof. Eduardo \textsc{Camponogara}\\
+
+&\\
+
+%------------------------------------------------
+
+\textsc{2005-2007} & Engineer Master's Degree, \textsc{Ecole Centrale Nantes}, France\\
+& Degree while on double diploma with a Eiffel-Égide\\
+&\\
+
+%------------------------------------------------
+
+\textsc{2003-2009} & Mechanical Engineer degree \textit{cum laude},
+\textsc{Univerisdade Federal do Rio Grande do Sul} - UFRGS \\
+& The highest GPA among the graduating students\\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Interests and Activities}
+
+Technology, Open-Source, Programming\\
+Paradoxes in Decision Making, Psychoanalysis, Behavioural Finance\\
+Football, Travelling
+
+%----------------------------------------------------------------------------------------
+
+
+\end{document}
