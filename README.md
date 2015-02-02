@@ -1,4 +1,4 @@
-Latex CV for Vinicius Gravina da Rocha
+My Latex CV
 ============
 
 This is my CV. I have used the
@@ -6,7 +6,7 @@ This is my CV. I have used the
 BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/) credits to [Alessandro
 Plasmati](alessandro.plasmati@gmail.com).
 
-To render, just
+To render:
 ```
 $ xelatex CV-Eng-VGR.tex
 ```
