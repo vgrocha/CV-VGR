@@ -1,4 +1,4 @@
-My Latex CV
+vgrocha's Latex CV
 ============
 
 This is my CV. I have used the
